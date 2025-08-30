@@ -1,6 +1,6 @@
 # UDPMetricsServer
 Basic realisation of metrics server based on UDP protocol
-Features:
+# Features:
 - UDP server listening port **8888**
 - Receiving messages in the format `<metric_name>:<value>` (UTF-8)
 - Basic validation, names without spaces and colons, numeric values
